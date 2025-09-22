@@ -1,0 +1,18 @@
+{
+  "name": "student-records-api",
+  "version": "1.0.0",
+  "description": "Simple CRUD API for Student Records (Students, Courses, Enrollments)",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "mysql2": "^3.4.0",
+    "dotenv": "^16.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
+}
